@@ -1,0 +1,40 @@
+.container{
+    font-size: large;
+    font-weight: 600;
+    display: grid;
+    place-content: center;
+}
+.grid-form{
+    padding: 6px  0px ;
+    display: grid;
+    grid-gap: 4px ;
+    grid-template-columns:  auto 1fr  ;   
+     place-items: center;
+     align-items: baseline;
+
+
+}
+.grid-checkbox{
+    padding: 6px  0px ;
+    display: grid;
+    grid-gap: 4px ;
+    grid-template-columns:  1fr 1fr 1fr 1fr  ;   
+     place-items: center;
+    align-items: baseline;
+}
+button{
+    width: 100px;
+    padding: 8px;
+}
+.center-in-container{
+    display: grid;
+    place-content: center;
+}
+.title{
+    text-align: center;
+}
+img{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
