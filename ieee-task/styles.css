@@ -38,3 +38,6 @@ img{
     justify-content: center;
     justify-items: center;
 }
+.padding{
+    padding: 24px;
+}
